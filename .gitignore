@@ -1,0 +1,35 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+*.pyo
+*.pyd
+.env
+
+# Logs
+logs/
+logs/*.log
+*.log
+
+# IDE files
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+
+# IDE files
+.vscode/
+
+# Virtual environments
+venv/
+
+# Results (if these are generated files)
+results/*.csv
+
+# Upload folder (if not tracked)
+uploads/

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Parser</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Resume Parser</h1>
+        <p class="subtitle">Upload and parse resumes</p>
+    </header>
+
+    <main>
+        <section class="upload-section">
+            <h2>Upload Resumes</h2>
+            <p>Supported formats: PDF, DOCX</p>
+            <form id="uploadForm" enctype="multipart/form-data" class="upload-form">
+                <label for="files" class="upload-label">Choose Files</label>
+                <input type="file" name="files" id="files" multiple class="upload-input" accept=".pdf,.doc,.docx" onchange="updateFileName()">
+                <p id="fileNameDisplay">No file selected</p>
+                <button type="submit" class="upload-button">Upload</button>
+            </form>
+        </section>
+
+        <!-- Display results after upload -->
+        <h2>Uploaded Files and Results:</h2>
+        <section id="results-section">
+            <div id="results"></div>
+        </section>
+    </main>
+</body>
+<script src="/static/script.js"></script>
+</html>
