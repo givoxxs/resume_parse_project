@@ -54,6 +54,10 @@ uvicorn main:app --reload
 
 This will start the FastAPI app on http://127.0.0.1:8000.
 
+## Releases
+Check out the latest releases of the Resume Parsing project on GitHub:
+[Releases on GitHub](https://github.com/givoxxs/resume_parse_project/releases)
+
 ## Usage
 ### Upload Resumes:
 Navigate to the homepage (http://127.0.0.1:8000/).
