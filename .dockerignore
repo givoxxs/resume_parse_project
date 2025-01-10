@@ -1,0 +1,36 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+logs/*.log
+*.log
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+
+# IDE files
+.vscode/
+
+# Virtual environments
+venv/
+
+# Results (if these are generated files)
+results/*.csv
+
+# Upload folder (if not tracked)
+uploads/
+
+# Environment variables file (if you are using .env for local setup)
+.env
+
+# Python eggs
+*.egg
+*.egg-info
+dist/
+build/
